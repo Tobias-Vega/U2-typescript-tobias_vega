@@ -1,0 +1,31 @@
+{
+  "name": "u2-typescript-tobias_vega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobias-Vega/U2-typescript-tobias_vega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Tobias-Vega/U2-typescript-tobias_vega/issues"
+  },
+  "homepage": "https://github.com/Tobias-Vega/U2-typescript-tobias_vega#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
