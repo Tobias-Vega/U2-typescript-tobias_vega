@@ -17,4 +17,4 @@ class Car {
 const car = new Car("Volvo");
 
 car.drive();
-console.log(car.getMake);
+console.log(car.getMake());
