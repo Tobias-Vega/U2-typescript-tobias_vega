@@ -17,7 +17,8 @@ class Car {
 class ElectricCar extends Car {
   batteryLife: number;
 
-  constructor(batteryLife: number){
+  constructor(batteryLife: number, make: string){
+    super(make)
     this.batteryLife = batteryLife;
   }
 
